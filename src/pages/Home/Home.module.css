@@ -1,0 +1,60 @@
+.root {
+  background: #EEEEEE;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 64px;
+  width: 100vw;
+  padding: 0 32px;
+  background: #FFFFFF;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #3C4048;
+}
+
+.listIcon {
+  display: grid;
+  grid-template-columns: repeat(9, 150px);
+  justify-content: center;
+  gap: 24px;
+  height: calc(100% - 64px);
+  padding: 32px 0 16px 0;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px 0;
+  height: 150px;
+  width: 150px;
+  border-radius: 8px;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+
+.icons:hover {
+  background: #FFFEEF;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.iconName {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #3C4048;
+}
